@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An algorithm visualtization web.">
+  <meta name="author" content="evanalifian">
+  <meta name="keywords" content="algorithms, visualization, javascript">
+  <title>Algoflows | Fibonacci</title>
+  <link rel="stylesheet" href="../../style/output.css">
+</head>
+<body>
+  <main>
+    <div class="w-full max-w-3xl mx-auto p-4 space-y-12">
+      <header class="space-y-4">
+        <h1>Fibonacci</h1>
+        <p>In mathematics, the Fibonacci sequence is a sequence in which each number is the sum of the two numbers that precede it. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted Fn. Many writers begin the sequence with 0 and 1, although some authors start it from 1 and 1 and some (as did Fibonacci) from 1 and 2. Starting from 0 and 1, the sequence begins.</p>
+        <p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...</p>
+      </header>
+      <section class="space-y-4">
+        <form name="n_input_form" id="n_input_form" class="flex justify-between gap-x-2">
+          <label for="n_input_value" class="flex-1">
+            <input type="number" name="n_input_value" id="n_input_value" placeholder="Enter the n number" class="input_form">
+          </label>
+          <button type="submit" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="6 3 20 12 6 21 6 3"/></svg>Run</button>
+        </form>
+        <div class="space-y-2">
+          <span>Output :</span>
+          <div id="show_answer"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="./dom.js"></script>
+</body>
+</html>

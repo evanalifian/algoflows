@@ -1,0 +1,20 @@
+{
+  "name": "algoflows",
+  "version": "1.0.0",
+  "description": "An algorithm visualtization web.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./style/input.css -o ./style/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "algorithms",
+    "visualization",
+    "javascript"
+  ],
+  "author": "evanalifian",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}

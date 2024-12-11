@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-sm;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold;
+  }
+
+  label {
+    @apply block;
+  }
+}
+
+@layer components {
+  .input_form {
+    @apply w-full border border-zinc-300 rounded-lg py-2 px-3 text-sm text-zinc-950 outline-none focus:outline focus:outline-zinc-300 focus:outline-offset-2;
+  }
+
+  .button {
+    @apply flex items-center gap-x-2 bg-zinc-950 text-sm text-zinc-50 rounded-lg py-2 px-3 transition-colors hover:bg-zinc-900 hover:text-zinc-100;
+  }
+}
