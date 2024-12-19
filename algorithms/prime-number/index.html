@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An algorithm visualtization web.">
+  <meta name="author" content="evanalifian">
+  <meta name="keywords" content="algorithms, visualization, javascript">
+  <title>Algoflows | Prime Number</title>
+  <link rel="stylesheet" href="../../style/output.css">
+</head>
+<body>
+  <main>
+    <div class="w-full max-w-3xl mx-auto p-4 space-y-12">
+      <header class="space-y-4">
+        <h1>Prime Number</h1>
+        <p>A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number. For example, 5 is prime because the only ways of writing it as a product, 1 × 5 or 5 × 1, involve 5 itself. However, 4 is composite because it is a product (2 × 2) in which both numbers are smaller than 4.</p>
+      </header>
+      <section class="space-y-4">
+        <form name="n_input_form" id="n_input_form" class="flex justify-between gap-x-2">
+          <label for="n_input_value" class="flex-1">
+            <input type="number" name="n_input_value" id="n_input_value" placeholder="Enter the n number" class="input_form">
+          </label>
+          <button type="submit" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="6 3 20 12 6 21 6 3"/></svg>Run</button>
+        </form>
+        <div class="space-y-2">
+          <span>Output :</span>
+          <div id="show_answer"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="./dom.js"></script>
+</body>
+</html>

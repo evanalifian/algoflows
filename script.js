@@ -7,6 +7,10 @@ const algorithms = [
     name: "Fibonacci",
     path: "/fibonacci/index.html"
   },
+  {
+    name: "Prime Number",
+    path: "/prime-number/index.html"
+  },
 ]
 
 document.getElementById("algorithms_list").innerHTML = `

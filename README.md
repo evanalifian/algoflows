@@ -14,13 +14,13 @@ Algoflows is an algorithms visualization web. There only 2 algorithms you can tr
 project
 |___algorithms/
 |   |___fibonacci
-|       |___dom.js
-|       |___functions.js
-|       |___index.html
+|   |   |___dom.js
+|   |   |___functions.js
+|   |   |___index.html
 |   |___fizzbuzz
-|       |___dom.js
-|       |___functions.js
-|       |___index.html
+|   |   |___dom.js
+|   |   |___functions.js
+|   |   |___index.html
 |___style/
 |   |___input.css
 |   |___output.css
