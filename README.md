@@ -21,6 +21,10 @@ project
 |   |   |___dom.js
 |   |   |___functions.js
 |   |   |___index.html
+|   |___prime-number
+|   |   |___dom.js
+|   |   |___functions.js
+|   |   |___index.html
 |___style/
 |   |___input.css
 |   |___output.css
